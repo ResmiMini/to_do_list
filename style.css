@@ -1,0 +1,36 @@
+
+    body
+    {
+        background-color: rgb(16, 16, 182);
+    }
+    
+    h3
+    {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+      font-style: italic;
+      color: rgb(47, 174, 174);
+    }
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+    
+
+    .todo-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .todo-buttons button {
+      margin-left: 5px;
+    }
+
+    @media (max-width: 576px) {
+      .todo-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+  
